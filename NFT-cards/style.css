@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.blue_back{
+    background-color: #0d1a2d;
+    width: 85%;
+    height: 90%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 100px;
+}
+.card{
+    background-color: #15273f;
+    width: 250px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 20px 20px 50px black;
+}
+.img_nft{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+h2{
+    font-weight: 600;
+    color: white;
+    
+}
+h2, h3, h4{
+    display: inline;
+}
+p{
+    color: #717B8A;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.avatar{
+    height: 35px;
+    border: solid white 1px;
+    border-radius: 50%;
+}
+h3{
+    margin-left: 5px;
+    color: #14c2c8;
+    font-size: 16px;
+    position: relative;
+    bottom: 3px;
+}
+.icon{
+    size: 16px;
+}
+span{
+    float: right;
+}
+span h4{
+    color: #717B8A;
+    position: relative;
+    bottom: 2px;
+}
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #717B8A;
+    height: 0px;
+}
+h4{
+    position: relative;
+    bottom: 15px;
+    color: #717B8A;
+    margin-left: 10px;
+}
+.name{
+    margin-left: 0px;
+    color: white;
+        
+}
+:hover.name{
+    color: #14c2c8;
+    cursor: pointer;
+}
+.view{
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    
+}
